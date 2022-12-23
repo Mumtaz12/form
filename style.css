@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+#container{
+
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(244, 244, 250, 0.8),rgba(237, 237, 245, 0.8)),url(img.webp);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 47px;
+    margin: -2px;
+}
+
+.form-box{
+    width: 82%;
+    height: 50%;
+    background-color: rgb(240, 144, 144);
+    margin: 14vh;
+    padding-top: 138px;
+    padding-right: 79px;
+
+}
+
+.form-box p{
+
+    margin: 4px;
+    padding: 16px;
+    width: 36%;
+    background-color: rgba(51, 51, 196, 0.856);
+    text-align: center;
+    border: 0px solid black;
+    border-radius: 5px;
+    
+    font-size: small;
+    color: white;
+    position: relative;
+    top: -63px;
+    left: 670px;
+    
+
+}
+
+.another{
+
+    
+    padding-left: 5px;
+    font-weight: lighter;
+    font-size: small;
+    color: rgb(247, 202, 247);
+}
+
+.form-container{
+
+    background-color: white;
+    padding: 119px;
+    margin: 30px;
+    max-width: 18%;
+    min-width: 18%;
+    border-radius: 5px;
+    position: relative;
+    bottom: 84px;
+    left: 651px;
+}
+
+.input-field{
+    position: relative;
+    bottom: 88px;
+    right: 96px;
+}
+
+
+ input[type=text]{
+
+    
+    min-width: 190%;
+    padding: 10px;
+    box-sizing: border-box;
+    
+    border: 2px solid rgb(194, 171, 171);
+    border-radius: 4px;
+    margin: 5px;
+    outline: none;
+    
+
+}
+
+input[type=email]{
+
+    margin: 5px;
+    min-width: 190%;
+    padding: 10px;
+    box-sizing: border-box;
+    
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    outline: none;
+    
+
+}
+input[type=password]{
+
+    margin: 5px;
+    min-width: 190%;
+    max-width: 195%;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    outline: none;
+
+}
+
+.submit{
+    padding: 5%;
+    border: 2px solid green;
+    border-radius: 3px;
+    width: 178%;
+    position: relative;
+    bottom: 71px;
+    right: 91px;
+    background-color: rgb(117, 231, 117);
+}
+
+.submit a{
+
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: 97px;
+    font-size: 14px;
+    font-weight: initial;
+    cursor: pointer;
+
+}
+
+
+.end{
+
+    padding: 10px;
+    display: inline-block;
+    font-size: smaller;
+    position: relative;
+    right: 69px;
+    bottom: 68px;
+    color: #aaa;
+}
+
+.mid{
+
+    padding: 10px;
+    display: inline-block;
+    font-size: smaller;
+    position: relative;
+    right: -96px;
+    bottom: 103px;
+    color: #aaa;
+}
+.term{
+
+    padding: 10px;
+    display: inline-block;
+    font-size: smaller;
+    position: relative;
+    left: 180px;
+    bottom: 138px;
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
